@@ -1,3 +1,4 @@
+# define a hash manually
 movies = { 	:starwars => 1979,
 			:fifthelement => 1995,
 			:lordofherings => 2002,
@@ -5,6 +6,7 @@ movies = { 	:starwars => 1979,
 			:interstellar => 2014,
 			:avatar => 2011}
 
+# access the value by the key
 puts movies[:starwars]
 puts movies[:fifthelement]
 puts movies[:lordofherings]
